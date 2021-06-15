@@ -1,0 +1,62 @@
+{
+  "name": "ticketlippu",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^1.0.2",
+    "@emotion/react": "^11.1.2",
+    "@emotion/styled": "^11.0.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "framer-motion": "^2.9.5",
+    "material-table": "^1.69.1",
+    "moment": "^2.29.1",
+    "qrcode-decoder": "^0.1.2",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-dotenv": "^0.1.2",
+    "react-modal": "^3.11.2",
+    "react-new-window": "^0.1.2",
+    "react-qr-reader": "^2.2.1",
+    "react-qr-scanner": "0.0.11",
+    "react-qr-svg": "^2.3.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-select": "^3.1.0",
+    "react-table": "^7.6.2",
+    "react-table-v6": "^6.8.6",
+    "react-toastify": "^6.1.0",
+    "serve": "^11.3.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
